@@ -1,0 +1,16 @@
+.list-tikets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ant-btn.ant-btn-block {
+  width: 502px;
+}
+.ant-spin {
+  display: block;
+  margin: 20px auto;
+  .ant-spin-dot {
+    font-size: 70px;
+  }
+}

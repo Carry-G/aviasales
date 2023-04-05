@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Open Sans Mobile/h5. Semibold, 14';
+}
+ul {
+  list-style: none;
+}
+li {
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  box-sizing: border-box;
+  background: #f3f7fa;
+}
+#root {
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  // justify-content: space-between;
+}
+@media (max-width: 760px) {
+  .main {
+    flex-direction: column;
+  }
+}
