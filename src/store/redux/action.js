@@ -1,4 +1,4 @@
-import AviasalesApi from '../services/apiSersices'
+import AviasalesApi from '../../services/apiSersices'
 
 const servicApi = new AviasalesApi()
 

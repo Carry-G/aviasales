@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 
-import { getId } from '../../redux/action'
+import { getId } from '../../store/redux/action'
 import ItemList from '../ItemList'
 import FilterPrice from '../FilterPrice'
 import FilterTransfer from '../FilterTransfer'
-import Logo from '../Logo/Logo'
+import Logo from '../Logo'
 import './App.scss'
 
 const App = () => {
